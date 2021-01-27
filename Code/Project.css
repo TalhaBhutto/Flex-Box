@@ -40,11 +40,36 @@ header ul{
 .services-container{
     display: flex;
 }
+.call-to-actio a{
+    background-color: gray;
+    color: #ffffff;
+    padding: 8px 13px;
+    display: blocks;
+    border: 2px solid transparent;
+}
+.call-to-actio a:hover{
+    background-color:white;
+    color: black;
+    border: 2px solid gray;
+}
+.call-to-actio{
+    align-self: flex-start;
+    margin-top: auto;
+}
+.service-box p{
+    margin: 0 0 10px;
+}
 .service-box{
     border: 1px solid #eeeeee;
     padding: 10px;
     flex-basis: 32%;
     max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.service-box h3{
+    margin: 5px 0 10px;
 }
 .service-box img{
     width: 100%;
@@ -71,6 +96,9 @@ aside ul a{
 aside img{
     height: 200px;
     width:100% ;
+}
+a:hover{
+    color: black;
 }
 article{
     padding: 10px;
