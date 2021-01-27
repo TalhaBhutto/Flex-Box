@@ -7,10 +7,16 @@ body{
     flex-direction: column;
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
 header{
     background-color:yellowgreen;
     display: flex;
 }
 header ul{
     list-style: none;
+}
+#logo{
+    margin: 0 auto;
 }
