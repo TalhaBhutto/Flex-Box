@@ -13,10 +13,18 @@ a{
 header{
     background-color:yellowgreen;
     display: flex;
+    align-items: center;
 }
 header ul{
     list-style: none;
+    display: flex;
 }
 #logo{
     margin: 0 auto;
+}
+#menu li{
+    padding: 10px;
+}
+#social-links li{
+    padding: 10px;
 }
