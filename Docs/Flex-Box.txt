@@ -1,3 +1,7 @@
 It only works in 1D
 x-axis is called main axis
 y-axis is called cross axis
+
+flex-wrap:
+no-wrap
+wrap
