@@ -63,7 +63,10 @@ aside ul{
     padding: 0%;
 }
 aside ul a{
-    columns: #566c2b;;
+    columns: #566c2b;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid gray;
 }
 article{
     padding: 10px;
