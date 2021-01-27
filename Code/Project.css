@@ -58,6 +58,13 @@ aside{
     flex:0 0 20vw;
     background-color: beige;
 }
+aside ul{
+    list-style: none;
+    padding: 0%;
+}
+aside ul a{
+    columns: #566c2b;;
+}
 article{
     padding: 10px;
 }
