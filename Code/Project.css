@@ -44,4 +44,14 @@ header ul{
     border: 1px solid #eeeeee;
     padding: 10px;
     flex-basis: 32%;
+    max-width: 370px;
+}
+.service-box img{
+    width: 100%;
+}
+#main{
+    display: flex;
+}
+aside{
+    flex:0 0 20vw;
 }
