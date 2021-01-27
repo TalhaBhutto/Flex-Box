@@ -54,4 +54,5 @@ header ul{
 }
 aside{
     flex:0 0 20vw;
+    background-color: beige;
 }
