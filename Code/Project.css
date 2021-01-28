@@ -121,11 +121,11 @@ footer{
         flex-basis: 48%;
         max-width: 370px;
 }}
-@media screen and (max-width:850px){
-    aside{
-        flex: 0 0 30vw;
+@media screen and (max-width:600px){
+    header{
+        flex-direction: column;
+    }    
+    #logo{
+        order: -1;
     }
-    .service-box{
-        flex-basis: 48%;
-        max-width: 370px;
-}}
+}
